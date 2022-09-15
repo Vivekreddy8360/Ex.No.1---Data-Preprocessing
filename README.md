@@ -31,7 +31,8 @@ Encoding categorical data
 Normalizing the data
 Splitting the data into test and train
 
-##PROGRAM:
+###PROGRAM:
+~~~
 import pandas as pd
 df=pd.read_csv("/content/Churn_Modelling.csv")
 df.head()
@@ -56,13 +57,13 @@ from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 df1 = sc.fit_transform(df)
 print(df1)
-
-##OUTPUT:
+~~~
+###OUTPUT:
 <img width="922" alt="NN1" src="https://user-images.githubusercontent.com/94525701/190435417-5da15e39-810c-40f0-aebc-feb381ede4af.png">
 <img width="475" alt="NN2" src="https://user-images.githubusercontent.com/94525701/190435471-12ddfa54-432d-4cf6-94fa-f93a3de49a1c.png">
 <img width="485" alt="NN3" src="https://user-images.githubusercontent.com/94525701/190435537-acf18bc1-4f53-4f1f-925d-1111969a8f17.png">
 <img width="439" alt="NN4" src="https://user-images.githubusercontent.com/94525701/190435614-5ce7a0e4-4608-49a6-ac0f-018e28fa005f.png">
 
 
-##RESULT
+###RESULT
 Thus the above program for standardizing the given data was implemented successfully
